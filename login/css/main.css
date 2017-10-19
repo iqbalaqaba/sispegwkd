@@ -1,0 +1,123 @@
+body{
+	font-family: 'Roboto',sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	background-image: url("img/ada.gif");
+    background-repeat: no-repeat;
+}
+
+.navbar-nav > li{
+  margin-left:20px;
+  margin-right:20px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.navbar-light .navbar-nav .active {
+	color:#034abe;}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color:#034abe;
+	transition: 0.6s;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color:rgba(0, 0, 0, 0.3)
+	font-weight:400;
+}
+
+/* Card shadow */
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-3 {
+  box-shadow: 0 10px 10px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-4 {
+  box-shadow: 0 0px 15px rgba(0,0,0,0.25), 0 5px 10px rgba(0,0,0,0.22);
+}
+
+.card-5 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.card-custom{
+	box-shadow: 0 0px 15px rgba(0, 0, 0, 0.01), 0 5px 10px rgba(0,0,0,0.22);
+}
+
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.my-auto{
+	margin-top: auto;
+margin-bottom: auto;
+}
+
+.border-15{
+	border-radius: 15px;
+}
+
+.card-body{	
+	border-radius: 8px;
+}
+
+.card{
+	border: 0px none;
+}
+
+.circle { 
+	background-image:url(img/circle.png); 
+	background-position: left bottom; 
+	background-attachment: fixed; 
+	background-size: 60%; 
+	z-index: -1;
+	 } 
+
+	 .padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.form-control{
+	border: 0px solid rgba(0,0,0,.15);
+	background-color: #f1eeee;
+}
+
+.form-control-lg{
+	line-height: 2;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.btn-lg {
+    padding: .5rem 2rem;
+
+}
+
+.btn-login {
+    color: #fff;
+    background-color: #0047b9;
+    border-color: #0047b9;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
